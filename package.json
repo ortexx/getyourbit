@@ -1,6 +1,6 @@
 {
   "name": "getyourbit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Getyourbit.com client",
   "main": "./index.js",
   "keywords": [
