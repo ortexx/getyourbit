@@ -36,11 +36,7 @@ class Api {
   }
 
   request(url, data = {}, options = {}) {
-    if(arguments.length == 2) {
-      data = options.json || options.data || {};
-    }
-
-    options.json = data;
+    options.json = data || {};
     options.url = this.url + '/' + url.replace(/^[\/]+/, '');
     options.json.token = this.token;
     options.method = 'POST';

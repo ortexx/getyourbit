@@ -43,7 +43,6 @@ Free services don't require authorization.
 ### .logout()
 Logout from the API. It gives an error without authorization before.
 ### .request(url, data={}, options={})
-### .request(url, options={ data: {} })
 Request to the API without scrolling to get data.  
 It returns all response body as object.
 ### .scroll(url, data={}, options={}, callback=null)
