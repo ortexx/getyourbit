@@ -68,10 +68,10 @@ class Api {
       }
 
       return this.request(url, data, options).then((body) => {
-        res = res.concat(body.data);
-        fn && fn(body, body.data, res);
+        res = res.concat(body.data);        
 
-        if(body.scroll) {       
+        if(body.scroll) {      
+          fn && fn(body, body.data, res); 
           return next(body.scroll); 
         }    
           
