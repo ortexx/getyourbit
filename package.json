@@ -1,0 +1,26 @@
+{
+  "name": "getyourbit",
+  "version": "0.0.1",
+  "description": "Getyourbit.com client",
+  "main": "./index.js",
+  "keywords": [
+    "getyourbit",
+    "getyourbit.com",
+    "ip",
+    "proxy",
+    "api",
+    "geolocation",
+    "cidr"
+  ],
+  "author": {
+    "name": "Alexandr Balasyan",
+    "email": "mywebstreet@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "engines": {
+    "node" : ">=6.0.0" 
+  } 
+}
