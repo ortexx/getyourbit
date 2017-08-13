@@ -5,8 +5,8 @@ This library allows you to make requests easily.
 ## Examples
 
 ```js
-const GetYouBit = require('getyourbit');
-const api = new GetYouBit.Api('https://ip.getyourbit.com');
+const GetYourBit = require('getyourbit');
+const api = new GetYourBit.Api('https://ip.getyourbit.com');
 
 api.auth('login', 'password').then(() => {
   return api.request('/lookup/8.8.8.8/');
