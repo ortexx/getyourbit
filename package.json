@@ -1,6 +1,6 @@
 {
   "name": "getyourbit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Getyourbit.com client",
   "main": "./index.js",
   "keywords": [
@@ -19,6 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ortexx/getyourbit"
   },
   "engines": {
     "node" : ">=6.0.0" 
