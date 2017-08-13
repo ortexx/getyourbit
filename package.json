@@ -1,6 +1,6 @@
 {
   "name": "getyourbit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Getyourbit.com client",
   "main": "./index.js",
   "keywords": [
@@ -12,6 +12,7 @@
     "geolocation",
     "cidr"
   ],
+  "homepage": "https://getyourbit.com",
   "author": {
     "name": "Alexandr Balasyan",
     "email": "mywebstreet@gmail.com"
